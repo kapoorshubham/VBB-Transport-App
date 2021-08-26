@@ -1,0 +1,174 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #7c6dd1;
+}
+
+.links{
+	text-decoration: none;
+	color: blanchedalmond;
+}
+
+.links:hover{
+	color: black;
+}
+
+#h1{
+	text-align: center;
+	padding-top: 70px;
+	text-decoration: underline;
+}
+
+#heading{
+	color: white;
+}
+
+#heading:hover{
+	color: rgb(248, 235, 214);
+}
+  
+.rows{
+	color: blanchedalmond;
+	text-align: center;
+}
+
+table{
+	padding-top: 50px;
+	position: relative;
+	top: 100px;
+	left: 225px;
+	width: 100%;
+	max-width: 900px;
+}
+
+th{
+	text-align: center;
+}
+
+.columns{
+	border: solid 2px black;
+}
+
+td{
+	border: solid 2px black;
+}
+
+.rows{
+	border: solid 2px black;
+}
+
+.table.table-hover{
+	border: solid 2px black;
+}
+
+tr{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+  .input-field.third-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .input-field.second-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .btn.btn-outline-success{
+	white-space: nowrap;
+	border: 0;
+	cursor: pointer;
+	background: #63c76a;
+	color:blanchedalmond;
+	height: 50px;
+	width: 100px;
+	position: relative;
+	left: 10px;
+	top: 70px;
+  }
+
+  .btn.btn-outline-success:hover{
+	  background:rgb(36, 185, 68);
+  }
+
+  .input:focus{
+	outline: 0;
+	box-shadow: none;
+  }
+
+  .input{
+	position: relative;
+	top: 70px;
+	border-color: transparent;
+	border-radius: 15px;
+	height: 50px;
+	width: 100%;
+	max-width: 650px;
+	text-indent: 20px;
+  }
+
+  .bookmarkButton{
+	white-space: nowrap;
+	border: 0;
+	cursor: pointer;
+	background: #e75555;
+	color:blanchedalmond;
+	height: 50px;
+	width: 100px;
+	position: relative;
+	left: 20px;
+	top: 78px;
+	border-radius: 5px;
+  }
+  .bookmarkButton:hover{
+	  background:rgb(238, 75, 47);
+  }
+
+  .bookmarkButton:disabled{
+	  cursor : not-allowed;
+  }
+
+  .viewBMButton{
+	white-space: nowrap;
+	border: 0;
+	cursor: pointer;
+	background: #e7b455;
+	color:blanchedalmond;
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 30px;
+	top: 78px;
+	border-radius: 5px;
+  }
+  .viewBMButton:hover{
+	  background:rgb(231, 158, 22);
+  }
+
+  .viewBMButton:disabled{
+	  cursor : not-allowed;
+  }
+
+  .clearBMButton{
+	white-space: nowrap;
+	border: 0;
+	cursor: pointer;
+	background: #746e63;
+	color:blanchedalmond;
+	height: 50px;
+	width: 150px;
+	position: relative;
+	left: 40px;
+	top: 78px;
+	border-radius: 5px;
+  }
+  .clearBMButton:hover{
+	  background:rgb(44, 42, 42);
+  }
+
+  .clearBMButton:disabled{
+	  cursor : not-allowed;
+  }

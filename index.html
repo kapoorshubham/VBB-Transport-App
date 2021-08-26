@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="script.js" defer="defer"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet" type="text/css"/>
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="h1"><a id="heading" href="index.html">VBB Transport App</a></h1>
+    <form method="GET" id="enquiryForm">
+      <div class="inner-form">
+        <div class="input-field second-wrap">
+        <input type="text" name="inputFrom" class="input" placeholder="Enter a stop name">
+        <div class="input-field third-wrap">
+      <input type="submit" value="Search" class="btn btn-outline-success" id="inputText">
+    </form>
+    <form method="GET" id="bookmarkForm">
+      <input type="submit" value="Bookmark" class="bookmarkButton" disabled>
+    </form>
+    <form method="GET" id="viewBmForm">
+      <input type="submit" value="View Bookmarks" class="viewBMButton">
+    </form>
+    <form method="GET" id="clearBmForm">
+      <input type="submit" value="Delete Bookmarks" class="clearBMButton">
+    </form>
+        </div>
+      </div>
+    </div>
+  <div>
+    <table id="stopsTable">
+      <colgroup span="6"></colgroup>
+      <thead>
+        <tr>
+          <th id="th1" scope="col"></th>
+          <th id="th2" scope="col"></th>
+          <th id="th3" colspan="6" scope="colgroup"></th>
+          </tr>
+        </thead>
+        <tbody id="table-content">
+        </tbody>
+    </table>
+  </div>
+</body>
+</html>
