@@ -81,6 +81,11 @@ function getStopDetails() {
 
     $.getJSON("https://v5.vbb.transport.rest/stops/" + clickedId + "/departures?&duration=20",
     function (data) {
+        
+        if(data.length==0){
+            alert("No upcoming departures in the next 20 minutes!");
+        }
+        
         for(var i=0; i<=data.length-1; i++) {
 
             row = document.createElement('tr');
