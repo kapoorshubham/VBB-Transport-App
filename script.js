@@ -251,7 +251,7 @@ function clearBookmarks() {
                 e.preventDefault();
             }
             
-        })
+        }
 }
 
 function saveBookmarkedStops () {
