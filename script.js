@@ -240,12 +240,12 @@ function clearBookmarks() {
     clearBmForm.addEventListener('submit', function (e) 
         {
             if(localStorage.getItem('0')){
-                localStorage.clear();
-                confirm("Delete all bookmarks?");
-                alert("All bookmarks Deleted!");
-                clearBmForm.onsubmit = "index.html";
-                document.querySelector('.clearBmButton').style.display="none";
-            }
+                if(confirm("Delete all bookmarks?")){
+                    localStorage.clear();
+                    alert("All bookmarks Deleted!");
+                    clearBmForm.onsubmit = "index.html";
+                    document.querySelector('.clearBmButton').style.display="none";
+                } 
             else{
                 alert("Add more bookmarks to delete!")
                 e.preventDefault();
